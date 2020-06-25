@@ -5,17 +5,17 @@ header {
 /* h1 elements should be centered and have a new font color */
 h1 {
 	color: #FFFFFF; /* White */
-	text-align: center;
+	text-align: right;
 	text-transform: uppercase;
 	font-family: "Trebuchet MS", Helvetica, sans-serif; 
-	font-size: 40px;
+	font-size: 20px;
 }
 /* h2 elements have a new font color */
 h2 {
 	color: #00008B; /* DarkBlue */
 	text-transform: uppercase; /* style headings to have uppercase text */
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 }
 /* sections should have a new background color */
 section {
@@ -23,7 +23,7 @@ section {
 }
 /* a elements should be centered and have a new font color and background color */
 a {
-	text-align: center;
+	text-align: left;
 	color: #000000; /* Black */
 	background-color: #D3D3D3; /* LightGray */ 
 	font-family: Arial, Helvetica, sans-serif;
@@ -43,5 +43,5 @@ table {
     border-collapse: collapse;
 }
 th {
-    text-align: left;
+    text-align: right;
 } 
